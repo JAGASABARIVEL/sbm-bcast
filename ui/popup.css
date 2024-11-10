@@ -1,0 +1,104 @@
+
+body {
+  width: 600px;
+  height: 400px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.title {
+  font-family: "Leckerli One", "cursive";
+  color: #007bff;
+}
+
+.text {
+  font-family: "Leckerli One", "cursive";
+}
+
+#settings {
+  cursor: pointer;
+}
+
+/* Custom Modal CSS */
+.modal-dialog {
+  max-width: 90vw; /* Set the width to 90% of the viewport width */
+  width: auto;     /* Let the width adjust automatically */
+  height: 80vh;    /* Set the height to 100% of the viewport height */
+  margin: 5vh auto; /* Center the modal vertically within the viewport */
+}
+
+.modal-body {
+  max-height: 60vh;
+  overflow-y: auto; /* Allow scrolling within the modal body if content overflows */
+}
+
+.modal-content {
+  border-radius: 10px; /* Optional: Adjust the border radius for a more polished look */
+}
+
+
+/* Navbar */
+.navbar {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.navbar-brand span {
+  color: #007bff;
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+  color: #007bff;
+  background-color: #e9ecef;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Buttons */
+button {
+  border-radius: 5px;
+}
+
+.ml {
+  margin-left: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transition: background-color 4s ease;
+  color: #fff;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #dc3545;
+  transition: background-color 4s ease;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.table-success th {
+  background-color: #0d6efd !important;
+  color: white;
+  text-transform: uppercase;
+}
+
+.status-icon {
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+}
