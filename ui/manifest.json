@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Broadcast Message",
+  "version": "1.0",
+  "description": "Send a message with an attached Excel file.",
+  "host_permissions": [
+    "http://127.0.0.1:5000/*",
+    "https://web.whatsapp.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "scripting",
+    "tabs",
+    "management"
+ ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}

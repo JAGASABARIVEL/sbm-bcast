@@ -1,0 +1,21 @@
+body {
+  width: 600px;
+  height: 400px;
+}
+
+/* Custom Modal CSS */
+.modal-dialog {
+  max-width: 90vw; /* Set the width to 90% of the viewport width */
+  width: auto;     /* Let the width adjust automatically */
+  height: 80vh;    /* Set the height to 100% of the viewport height */
+  margin: 5vh auto; /* Center the modal vertically within the viewport */
+}
+
+.modal-body {
+  max-height: 60vh;
+  overflow-y: auto; /* Allow scrolling within the modal body if content overflows */
+}
+
+.modal-content {
+  border-radius: 10px; /* Optional: Adjust the border radius for a more polished look */
+}
